@@ -7,21 +7,18 @@
 
 int main(void)
 {
-	int f = 0x30;
-	int s = 0x31;
+	int n = 0x30;
 
-	while (f < 0x39)
+	while (n <= 0x39)
 	{
-		s = f + 1;
-		while (s <= 0x39)
+		putchar(n);
+		n++;
+		if (n <= 0x39)
 		{
-			putchar(f);
-			putchar(s);
 			putchar(',');
 			putchar(' ');
-			s++;
 		}
-		f++;
 	}
+
 	return (0);
 }
