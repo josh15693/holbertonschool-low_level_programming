@@ -1,5 +1,5 @@
 /**
- * main - prints lowercase alphabet
+ * main - prints upper then lowercase alphabet
  *
  * Return: 0 success
  */
