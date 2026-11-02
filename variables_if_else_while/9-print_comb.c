@@ -1,3 +1,8 @@
+/**
+ * main - print all possible combinations of single-digit numbers
+ *
+ * Return: 0 success
+ */
 #include <stdio.h>
 
 int main(void)
@@ -12,15 +17,11 @@ int main(void)
 		{
 			putchar(f);
 			putchar(s);
-			if (f < 0x38)
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			putchar(',');
+			putchar(' ');
 			s++;
 		}
 		f++;
 	}
 	return (0);
 }
-
