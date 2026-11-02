@@ -1,5 +1,5 @@
 /**
- * main - prints lowercase alphabet 
+ * main - prints lowercase alphabet
  * without printing e and q
  * Return: 0 success
  */
@@ -16,7 +16,7 @@ int main(void)
 		}
 		putchar(letter);
 	}
-	putchar(letter);
+	putchar('\n');
 	return (0);
 
 }
