@@ -4,8 +4,17 @@
  * @n: number to be checked
  * Return: n last digit
  */
+#include "main.h"
 int print_last_digit(int n)
 {
-    n = n % 10;
-    return (n);
+if (n > 0)
+{
+n = n % 10;
+return (n);
+}
+else
+{
+n = n % 10;
+return (-n);
+}
 }
