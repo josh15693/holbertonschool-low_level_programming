@@ -1,7 +1,7 @@
 /**
  * print_alphabet - function to print the alphabet
  *
- * Return: void 
+ * Return: void
  */
 #include "main.h"
 void print_alphabet(void)
