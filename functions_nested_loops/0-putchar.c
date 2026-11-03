@@ -4,10 +4,18 @@
  * Return: 0 success
  */
 
-#include <stdio.h>
+#include "main.h"
 
 int main(void)
 {
-    printf("_putchar\n");
-    return (0);
+	char word[] = "_putchar";
+	int c = 0;
+
+	while (word[c] != '\0')
+	{
+		_putchar(word[c]);
+		c++;
+	}
+	_putchar('\n');
+	return (0);
 }
