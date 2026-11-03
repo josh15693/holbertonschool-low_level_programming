@@ -5,15 +5,15 @@
  * Return: 0 otherwise
  */
 #include "main.h"
-char c;
+
 int _islower(int c)
 {
-if (c >= 0x61 && c <= 0x7A)
+if (c >= 'a' && c <= 'z')
 {
-return(1);
+return (1);
 }
 else
 {
-return(0);
+return (0);
 }
 }
