@@ -1,5 +1,5 @@
 /**
- * main - function to print the alphabet
+ * function print_alphabet - function to print the alphabet
  *
  *
  */
