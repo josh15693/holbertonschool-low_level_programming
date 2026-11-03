@@ -4,11 +4,10 @@
  * Return: 1 if lowercase, 0 otherwise
  */
 #include "main.h"
-
+char c;
 int _islower(int c)
 {
-char a;
-if (a >= 0x61 && c <= 0x7A)
+if (c >= 0x61 && c <= 0x7A)
 {
 return(1);
 }
