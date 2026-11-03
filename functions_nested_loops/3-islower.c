@@ -7,8 +7,8 @@
 
 int _islower(int c)
 {
-char c;
-if (c >= 0x61 && c <= 0x7A)
+char a;
+if (a >= 0x61 && c <= 0x7A)
 {
 return(1);
 }
