@@ -9,11 +9,15 @@
  * Return: absolute number
  */
 #include "main.h"
-#include <math.h>
 
 int _abs(int n)
 {
-n = pow(n,2);
-n = sqrt(n);
+if (n < 0)
+{
+return (-n);
+}
+else
+{
 return (n);
+}
 }
