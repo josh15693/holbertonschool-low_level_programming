@@ -1,6 +1,6 @@
 /**
  * print_sign: function that prints the sign of a number
- * if it is positive if will return 1 and print +
+ * Description: if it is positive if will return 1 and print +
  * if negative will return -1 and print -
  * if zero will return 0 and print 0
  *
