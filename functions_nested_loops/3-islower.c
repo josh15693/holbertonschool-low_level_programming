@@ -1,7 +1,8 @@
 /**
  * _islower - function to determine if input is lowercase
  *
- * Return: 1 if lowercase, 0 otherwise
+ * Return: 1 if lowercase
+ * Return: 0 otherwise
  */
 #include "main.h"
 char c;
