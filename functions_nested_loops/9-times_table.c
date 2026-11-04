@@ -21,24 +21,20 @@ void times_table(void)
 		}
 		else
 		{
-			if (column == 0 || row == 0)
-			{
-				_putchar('0');
-			}
-			else if (((row * column) / 10) == 0)
-			{
-				_putchar((row * column) % 10 + '0');
-			}
-			else
-			{
-				_putchar((row * column) / 10 + '0');
-				_putchar((row * column) % 10 + '0');
-			}
-			if (column != 9)
+			if (column != 0)
 			{
 				_putchar(',');
 				_putchar(' ');
+				if (row * column < 10);
+				{
+					_putchar(' ');
+				}
 			}
+			if (row * column >= 10)
+			{
+				_putchar((row * column) / 10 + '0');
+			}
+			_putchar(row * column) % 10 + '0');	
 			column++;
 		}
 	}
