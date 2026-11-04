@@ -9,7 +9,6 @@ void times_table(void)
 {
 	int row = 0;
 	int column = 0;
-	int n = 0;
 
 	while (row < 10)
 	{
