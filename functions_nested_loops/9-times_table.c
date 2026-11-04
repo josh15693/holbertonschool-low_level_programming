@@ -25,16 +25,16 @@ void times_table(void)
 			{
 				_putchar(',');
 				_putchar(' ');
-				if (row * column < 10);
-				{
-					_putchar(' ');
-				}
+			if (row * column < 10);
+			{
+				_putchar(' ');
+			}
 			}
 			if (row * column >= 10)
 			{
 				_putchar((row * column) / 10 + '0');
 			}
-			_putchar(row * column) % 10 + '0');	
+			_putchar((row * column) % 10 + '0');	
 			column++;
 		}
 	}
