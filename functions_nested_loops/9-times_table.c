@@ -1,5 +1,6 @@
 /**
  * times_table - prints 9 times table starting with 0
+ * 
  * Return: void
  */
 
@@ -34,10 +35,14 @@ void times_table(void)
 				_putchar((row * column) / 10 + '0');
 				_putchar((row * column) % 10 + '0');
 			}
-			if (column !=9)
+			if (column != 9)
 			{
 				_putchar(',');
 				_putchar(' ');
+				if (row * (column + 1) < 10)
+				{
+					_putchar(' ');
+				}
 			}
 			column++;
 		}
