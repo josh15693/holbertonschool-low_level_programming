@@ -25,7 +25,7 @@ else
 printf("%d", c);
 }
 c++;
-printf(" ");
+putchar('\n');
 }
 return (0);
 }
