@@ -27,6 +27,5 @@ printf("%d", c);
 c++;
 printf(" ");
 }
-printf("\n");
 return (0);
 }
