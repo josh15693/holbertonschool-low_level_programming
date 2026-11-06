@@ -25,7 +25,7 @@ else
 printf("%d", c);
 }
 c++;
-if (c != 100)
+if (c <= 100)
 {
 putchar(' ');
 }
