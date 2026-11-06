@@ -5,12 +5,14 @@
  */
 void print_square(int size)
 {
+int c = 0;
+int r = 0;
+
 if (size <= 0)
 {
 _putchar('\n');
+break();
 }
-int c = 0;
-int r = 0;
 while (r < size)
 {
 while (c < size)
