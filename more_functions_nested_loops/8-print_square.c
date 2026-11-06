@@ -11,7 +11,8 @@ int r = 0;
 if (size <= 0)
 {
 _putchar('\n');
-break();
+c = size + 1;
+r = size + 1;
 }
 while (r < size)
 {
