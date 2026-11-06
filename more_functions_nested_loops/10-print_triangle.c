@@ -7,7 +7,6 @@
 void print_triangle(int size)
 {
 	int r = 1;
-	int size = 5;
 	int c = 0;
 
 	while (r <= size)
@@ -26,6 +25,5 @@ void print_triangle(int size)
 		r++;
 		_putchar('\n');
 	}
-	return (0);
 }
 
