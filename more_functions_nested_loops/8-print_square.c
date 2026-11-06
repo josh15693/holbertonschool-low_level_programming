@@ -5,6 +5,10 @@
  */
 void print_square(int size)
 {
+if (size <= 0)
+{
+_putchar('\n');
+}
 int c = 0;
 int r = 0;
 while (r < size)
