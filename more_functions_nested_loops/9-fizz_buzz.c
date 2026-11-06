@@ -25,7 +25,10 @@ else
 printf("%d", c);
 }
 c++;
+if (c != 100)
+{
 putchar(' ');
+}
 }
 putchar('\n');
 return (0);
