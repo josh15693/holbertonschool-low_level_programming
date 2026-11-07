@@ -5,23 +5,37 @@ void add(float a, float b)
 	float result;
 	
 	result = (a + b);
-	printf("Result: %.1f\n", result);
+	printf("Result: %.f\n", result);
 }
 void subtract(float a, float b)
 {
 	float result; 
 
 	result = (a -b);
-	printf("Result: %.1f\n", result);
+	printf("Result: %.f\n", result);
 }
-void multiply(float a,float b)
+void multiply(float a, float b)
 {
 	float result; 
 	
 	result = (a * b);
-	printf("Result: %.1f\n", result);
+	printf("Result: %.f\n", result);
 }
+void divide(float a, float b)
+{	
+	float result;
 
+	if (b == 0)
+		{
+			printf("Error: division by zero\n");
+			return;
+		}
+	else
+	{
+	result = (a / b);
+	printf("Result: %.2f\n", result);
+	}
+}
 int main(void)
 {
 	int choice;
@@ -69,9 +83,11 @@ int main(void)
 		case 3:
 			multiply(a,b);
 			break;
+		case 4:
+			divide(a,b);
+			break;
 	}
-
 	}	
-	return (0);
-	
+	return (0);	
 }
+
