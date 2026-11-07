@@ -7,6 +7,13 @@ void add(float a, float b)
 	result = (a + b);
 	printf("%.1f\n", result);
 }
+void subtract(float a, float b)
+{
+	float result; 
+
+	result = (a -b);
+	printf("%.1f\n", result);
+}
 
 int main(void)
 {
@@ -48,6 +55,9 @@ int main(void)
 	{
 		case 1:
 			add(a,b);
+			break;
+		case 2:
+			subtract(a,b);
 			break;
 	}
 
