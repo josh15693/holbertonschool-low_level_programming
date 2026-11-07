@@ -1,8 +1,18 @@
 #include <stdio.h>
 
+void add(float a, float b)
+{
+	float result;
+	
+	result = (a + b);
+	printf("%.1f\n", result);
+}
+
 int main(void)
 {
 	int choice;
+	float a;
+	float b;
 	int c;
 
 	while (1)
@@ -25,7 +35,22 @@ int main(void)
 	if (choice < 1 || choice > 4)
 	{
 		printf("Invalid choice\n");
+		continue;
 	}
+	
+	printf("A: ");
+	scanf("%f", &a);
+	printf("B: ");
+	scanf("%f", &b);
+	while ((c = getchar()) != '\n' && c != EOF);
+
+	switch (choice)
+	{
+		case 1:
+			add(a,b);
+			break;
+	}
+
 	}	
 	return (0);
 	
