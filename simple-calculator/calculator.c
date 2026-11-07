@@ -5,14 +5,21 @@ void add(float a, float b)
 	float result;
 	
 	result = (a + b);
-	printf("%.1f\n", result);
+	printf("Result: %.1f\n", result);
 }
 void subtract(float a, float b)
 {
 	float result; 
 
 	result = (a -b);
-	printf("%.1f\n", result);
+	printf("Result: %.1f\n", result);
+}
+void multiply(float a,float b)
+{
+	float result; 
+	
+	result = (a * b);
+	printf("Result: %.1f\n", result);
 }
 
 int main(void)
@@ -58,6 +65,9 @@ int main(void)
 			break;
 		case 2:
 			subtract(a,b);
+			break;
+		case 3:
+			multiply(a,b);
 			break;
 	}
 
