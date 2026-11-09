@@ -14,7 +14,7 @@ if (n <= 0)
 printf("\n");
 return;
 }
-while (count < (n - 1))
+while (count < (n - git p1))
 {
 printf("%d, ", a[count]);
 count++;
