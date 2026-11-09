@@ -7,9 +7,9 @@
  */
 void print_array(int *a, int n)
 {
-int count = 1;
+int count = 0;
 
-while (count < n)
+while (count < (n -1))
 {
 printf("%d, ", a[count]);
 count++;
