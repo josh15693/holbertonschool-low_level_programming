@@ -11,11 +11,10 @@ while (s[length] != '\0')
 {
 length++;
 }
-while (s[length] > 0)
+while (length >= 0)
 {
-length--;
 _putchar(s[length]);
-
+length--;
 }
 _putchar('\n');
 }
