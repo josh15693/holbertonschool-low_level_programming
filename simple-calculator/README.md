@@ -1,5 +1,5 @@
-**##Interactive Calculator (C)
-**
+**_Interactive Calculator (C)_**
+
 **Description**
 
 A simple terminal-based calculator written in C. The program uses an interactive menu to allow users to perform basic arithmetic operations.
