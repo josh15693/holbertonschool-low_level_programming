@@ -1,16 +1,16 @@
-Interactive Calculator (C)
-
-Description
+**##Interactive Calculator (C)
+**
+**Description**
 
 A simple terminal-based calculator written in C. The program uses an interactive menu to allow users to perform basic arithmetic operations.
 
-Compilation
+**Compilation**
 
 Compile using GCC with the following flags:
 
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 calculator.c -o calculator
 
-Running the Program
+**Running the Program**
 
 Execute the compiled program from the terminal:
 
@@ -18,7 +18,7 @@ Execute the compiled program from the terminal:
 
 Follow the on-screen menu to select an operation and enter the required numbers.
 
-Supported Operations
+**Supported Operations**
 
 Addition (+)
 
@@ -30,13 +30,13 @@ Division (/)
 
 Exit
 
-Numeric Behaviour
+**Numeric Behaviour**
 
 The calculator uses integer arithmetic. Decimal values are supported to 1 decimal place, and division between integers truncates any remainder beyond this.
 
 Division by zero is handled to prevent invalid calculations.
 
-Known Limitations
+**Known Limitations**
 
 Menu selections must be valid integers within the displayed range.
 
