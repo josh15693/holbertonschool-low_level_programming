@@ -9,11 +9,11 @@ void print_array(int *a, int n)
 {
 int count = 0;
 
-if (count == 0)
+if (n == 0)
 {
 printf("%d", a[count]);
 }
-else if (count <= 0)
+else if (n <= 0)
 {
 return;
 }
