@@ -13,7 +13,7 @@ int i = 0;
 
 if (src[0] == '\0')
 {
-return(dest);
+return (dest);
 }
 while (src[length_src] != '\0')
 {
