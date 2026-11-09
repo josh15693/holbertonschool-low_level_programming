@@ -14,7 +14,7 @@ int _atoi(char *s)
 {
 int sign = 1;
 int i = 0;
-int result = 0;
+double result = 0;
 int found = 0;
 
 /*
