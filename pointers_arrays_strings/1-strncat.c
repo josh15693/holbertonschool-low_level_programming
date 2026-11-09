@@ -20,21 +20,21 @@ while (src[length_src] != '\0')
 {
 length_src++;
 }
-while (src[length_dest] != '\0')
+while (dest[length_dest] != '\0')
 {
 length_dest++;
 }
-length_dest = length_dest + 2;
-while (n >= 0)
+while (n > 0 && src[i] != '\0')
 {
 dest[length_dest] = src[i];
 i++;
 n--;
 length_dest++;
 }
-if ((n - length_src) < 0)
+if ((i - length_src) < 0)
 {
 dest[length_dest] = '\0';
 return (dest);
 }
+return (dest);
 }
