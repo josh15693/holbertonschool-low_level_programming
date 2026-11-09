@@ -19,7 +19,7 @@ while (src[length_dest] != '\0')
 {
 length_dest++;
 }
-length_dest++;
+length_dest = length_dest + 2;
 while (length_src >= 0)
 {
 dest[length_dest] = src[i];
