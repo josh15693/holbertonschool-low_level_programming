@@ -1,0 +1,16 @@
+#include "main.h"
+/**
+ * print_rev - reverse prints a string
+ * @s: string to print
+ */
+void print_rev(char *s)
+{
+int length = _strlen(s);
+
+while (s[length] >= 0)
+{
+_putchar(s[length]);
+length--;
+}
+_putchar('\n');
+}
