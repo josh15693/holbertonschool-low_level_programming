@@ -1,5 +1,5 @@
 /**
- * _strcat - concatinates two strings, using n bytes
+ * _strncat - concatinates two strings, using n bytes
  * @dest: destionation string
  * @src: destionation string
  * @n: number of bytes to append
