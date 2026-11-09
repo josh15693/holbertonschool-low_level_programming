@@ -9,16 +9,9 @@ void print_array(int *a, int n)
 {
 int count = 0;
 
-if (n == 0)
+if (n <= 0)
 {
-printf("%d", a[count]);
-}
-else if (n == 1)
-{
-printf("%d", a[n]);    
-}
-else if (n < 0)
-{
+printf("\n");
 return;
 }
 while (count < (n - 1))
