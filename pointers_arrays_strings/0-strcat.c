@@ -11,6 +11,10 @@ int length_src = 0;
 int length_dest = 0;
 int i = 0;
 
+if (src[0] = '\0')
+{
+    return(dest)
+}
 while (src[length_src] != '\0')
 {
 length_src++;
