@@ -13,7 +13,11 @@ if (n == 0)
 {
 printf("%d", a[count]);
 }
-else if (n <= 0)
+else if (n == 1)
+{
+printf("%d", a[n]);    
+}
+else if (n < 0)
 {
 return;
 }
