@@ -13,6 +13,6 @@ while (s1[i] == s2[i] && s1[i] != '\0' && s2[i] != '\0')
 {
 i++;
 }
-res = s2[i] - s1[i];
+res = s1[i] - s2[i];
 return (res);
 }
