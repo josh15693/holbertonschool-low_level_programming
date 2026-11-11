@@ -18,7 +18,7 @@ str[i] == '(' || str[i] == ')' || str[i] == '{' ||
 str[i] == '}')
 {
 new_word = 1;
-}    
+}
 else if (new_word == 1)
 {
 if (str[i] >= 'a' && str[i] <= 'z')
