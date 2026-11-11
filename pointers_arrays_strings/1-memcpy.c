@@ -2,6 +2,7 @@
  * _memcpy - copies n bytes from src to dest memory area
  * @dest: destionation array
  * @src: source array
+ * @n: number of bytes to be copied
  *
  * Return: pointer to destination
  */
