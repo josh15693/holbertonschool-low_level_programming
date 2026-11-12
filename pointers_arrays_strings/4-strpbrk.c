@@ -30,10 +30,10 @@ if (found == 1)
 {
 return (&s[i]);
 }
-else 
+else
 {
 i++;
-c = 0;;
+c = 0;
 }
 }
 return (0);
