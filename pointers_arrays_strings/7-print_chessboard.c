@@ -11,10 +11,10 @@ while (r < 8)
 {
 while (c < 8)
 {
-putchar(a[r][c]);
+_putchar(a[r][c]);
 c++;
 }
-putchar('\n');
+_putchar('\n');
 c = 0;
 r++;
 }
