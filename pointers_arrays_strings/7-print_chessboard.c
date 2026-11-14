@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_chessboard - prints chessboard
- * @a: number of rows 
+ * @a: number of rows
  */
 void print_chessboard(char (*a)[8])
 {
