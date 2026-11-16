@@ -22,7 +22,8 @@ while (str[length] != '\0')
 length++;
 }
 /* Allocates memory for the length of the string
-+ 1 for the '\0' */
+ *+ 1 for the '\0'
+ */
 copy = malloc(sizeof(char) * (length + 1));
 /* Checks that malloc allocated correctly */
 if (copy == NULL)
