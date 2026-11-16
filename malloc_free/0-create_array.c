@@ -14,11 +14,11 @@ char *create_array(unsigned int size, char c)
 unsigned int i = 0;
 char *arr; 
 /* checks if size is null, if it is, nothing could be stored in it*/
-if (arr == NULL)
+if (size == 0)
 return (NULL);
 /* allocates memory of variable size multiplied by 1 byte */
 arr = malloc(size * sizeof(char));
-if (arr == 0)
+if (arr == NULL)
 return (NULL);
 
 while (i < size)
