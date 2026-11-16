@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include "main.h"
 /**
  * _strdup - duplicates a string into newly allocated memory
  * @str: the string to duplicate
@@ -21,8 +22,8 @@ while (str[length] != '\0')
 {
 length++;
 }
-
-/* Allocates memory for the length of the string
+/* 
+ * Allocates memory for the length of the string
  * + 1 for the '\0'
  */
 copy = malloc(sizeof(char) * (length + 1));
