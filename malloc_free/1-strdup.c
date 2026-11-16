@@ -22,7 +22,7 @@ while (str[length] != '\0')
 {
 length++;
 }
-/* 
+/*
  * Allocates memory for the length of the string
  * + 1 for the '\0'
  */
