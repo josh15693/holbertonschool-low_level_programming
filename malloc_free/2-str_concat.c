@@ -14,6 +14,15 @@ int length1;
 int length2;
 int i = 0;
 int c;
+/* handles NULL as empty string */
+if (s1 == NULL)
+{
+s1 = "";
+}
+if (s2 == NULL)
+{
+s2 = "";
+}
 /* finds length of s1 and s2*/
 for (length1 = 0; s1[length1] != '\0'; length1++);
 for (length2 = 0; s2[length2] != '\0'; length2++);
@@ -23,19 +32,11 @@ if (newstr == NULL)
 {
 return (NULL);
 }
-if (s1 == NULL)
-{
-s1 = "";
-}
-if (s2 == NULL)
-{
-s2 = "";
-}
 /*copies s1 and s2 INTO newstr*/
 while (i < length1)
 {
 newstr[i] = s1[i];
-i++;   
+i++;
 }
 c = i;
 i = 0;
@@ -44,5 +45,6 @@ while (i < length2)
 newstr[c + i] = s2[i];
 i++;
 }
+newstr[c + i] = '\0';
 return (newstr);
 }
