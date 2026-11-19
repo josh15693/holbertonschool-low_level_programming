@@ -10,48 +10,44 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-    int len_s1 = 0;
-    int len_s2 = 0;
-    char *newstr;
-    int i = 0;
-    int j = 0;
+int len_s1 = 0;
+int len_s2 = 0;
+char *newstr;
+int i = 0;
+int j = 0;
 
-    if (s1 == NULL)
-    {
-        s1 = "";
-    }
-    if (s2 == NULL)
-    {
-        s2 = "";
-    }
+if (s1 == NULL)
+s1 = "";
+if (s2 == NULL)
+s2 = "";
 
-    while (s1[len_s1] != '\0')
-    {
-    len_s1++;
-    }
-    while (s2[len_s2] != '\0')
-    {
-    len_s2++;
-    }
-    if (n >= len_s2)
-    {
-        n = len_s2;
-    }
-    newstr = malloc(sizeof(char) * (len_s1 + n));
-    if (newstr == NULL)
-    {
-        return (NULL);
-    }
-    while (i < len_s1)
-    {
-        newstr[i] = s1[i];
-        i++;
-    }
-    while (j < n)
-    {
-        newstr[i + j] = s2[j];
-        j++;
-    }
-    newstr[i + j] = '\0';
-    return (newstr);
+while (s1[len_s1] != '\0')
+{
+len_s1++;
+}
+while (s2[len_s2] != '\0')
+{
+len_s2++;
+}
+if (n >= len_s2)
+{
+n = len_s2;
+}
+newstr = malloc(sizeof(char) * (len_s1 + n));
+if (newstr == NULL)
+{
+return (NULL);
+}
+while (i < len_s1)
+{
+newstr[i] = s1[i];
+i++;
+}
+while (j < n)
+{
+newstr[i + j] = s2[j];
+j++;
+}
+newstr[i + j] = '\0';
+return (newstr);
 }
