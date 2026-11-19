@@ -33,7 +33,7 @@ if (n >= len_s2)
 {
 n = len_s2;
 }
-newstr = malloc(sizeof(char) * (len_s1 + n));
+newstr = malloc(sizeof(char) * (len_s1 + n + 1));
 if (newstr == NULL)
 {
 return (NULL);
