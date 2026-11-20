@@ -40,5 +40,3 @@ else
 printf("Owner: %s\n", d->owner);
 }
 }
-
-
