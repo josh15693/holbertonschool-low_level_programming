@@ -1,11 +1,11 @@
 #include <stdlib.h>
 /**
  * _calloc - allocates memory for an array using malloc,
- * then zeroes all bytes in array 
- * 
+ * then zeroes all bytes in array
+ *
  * @nmemb: number of elements in the array
- * @size: size of the elements in the array 
- * 
+ * @size: size of the elements in the array
+ *
  * Return: pointer to the allocated memory
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
@@ -21,11 +21,11 @@ ptr = malloc(nmemb * size);
 /* Checks allocation is successful */
 if (ptr == NULL)
 return (NULL);
-/* 
+/*
  * Declares and casts ptr_bytes to a char *
  * so that each byte can be accessed and changed
  * (void * cannot be deferenced where as char * can)
- * Sets values within array to 0 
+ * Sets values within array to 0
  */
 ptr_bytes = (char *)ptr;
 while (i < nmemb * size)
