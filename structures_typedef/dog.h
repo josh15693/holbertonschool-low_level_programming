@@ -9,10 +9,11 @@
  *
  * Description: a dog is defined by its name, age and owner
  */
-struct dog {
-char * name;
+struct dog 
+{
+char *name;
 float age;
-char * owner;
+char *owner;
 };
 
 #endif
