@@ -5,13 +5,13 @@
  * print_name - prints a name using a callback
  * @name: the name to print
  * @f: pointer to the function used to print it
- * 
+ *
  * Return: nothing
  */
 void print_name(char *name, void (*f)(char *))
 {
 	if (name == NULL || f == NULL)
-		return; 
+		return;
 
-	f(name); 
+	f(name);
 }
