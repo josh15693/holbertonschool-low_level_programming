@@ -16,7 +16,7 @@ return;
 if (action == NULL)
 return;
 
-while (i < size) 
+while (i < size)
 {
 action(array[i]);
 i++;
