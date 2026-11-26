@@ -2,7 +2,7 @@
 /**
  * array_iterator - executes a function on each element of an array
  * @array: the array to iterate over
- * @size: the size of the array
+ * @size:  size of the array
  * @action: pointer to the function to execute on each element
  * Return: nothing
  */
