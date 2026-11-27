@@ -16,14 +16,11 @@ return (-1);
 while (i < size)
 {
 if (cmp(array[i]) != 0)
-i++;
-}
-if (i == size)
-{
-return (-1);
-}
-else
 {
 return (i);
 }
+i++;
 }
+return (-1);
+}
+
