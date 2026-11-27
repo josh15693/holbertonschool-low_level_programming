@@ -4,7 +4,8 @@
  * @array: the array to search
  * @size: the size of the array
  * @cmp: pointer to the comparison function
- * Return: the index of the first element for which the comparison function returns a non-zero value, or -1 if no such element is found
+ * Return: the index of the first element for which the
+ * comparison function returns a non-zero value, or -1 if no such element is found
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
@@ -16,7 +17,7 @@ if (array == NULL)
 return (-1);
 if (cmp == NULL)
 return (-1);
-    
+
 while (i < size)
 {
 if (cmp(array[i]) != 0)
