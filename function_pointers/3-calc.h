@@ -3,8 +3,8 @@
 
 typedef struct op
 {
-    char *op;                  /* the operator string, e.g. "+" */
-    int (*f)(int a, int b);    /* the function, e.g. op_add */
+char *op;                  /* the operator string, e.g. "+" */
+int (*f)(int a, int b);    /* the function, e.g. op_add */
 } op_t;
 
 int op_add(int a, int b);
