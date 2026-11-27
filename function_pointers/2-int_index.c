@@ -12,6 +12,10 @@ int i = 0;
 
 if (size <= 0)
 return (-1);
+if (array == NULL)
+return;
+if (cmp == NULL)
+return;
     
 while (i < size)
 {
