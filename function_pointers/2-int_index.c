@@ -13,9 +13,9 @@ int i = 0;
 if (size <= 0)
 return (-1);
 if (array == NULL)
-return;
+return (-1);
 if (cmp == NULL)
-return;
+return (-1);
     
 while (i < size)
 {
